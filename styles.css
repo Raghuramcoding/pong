@@ -1,0 +1,33 @@
+.game-canvas {
+    width: 800px;
+    height: 600px;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.ui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.score {
+    color: white;
+    font-size: 24px;
+}
+
+.button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
